@@ -1,1 +1,244 @@
-Hello World
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Ziqiang Ren</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Le styles -->
+    <link href="assets/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="assets/yangqing.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="span3 bs-docs-sidebar">
+          <!-- We use a fancy nav bar if there is enough space -->
+          <hr class="hidden-phone"/>
+          <ul class="nav nav-list bs-docs-sidenav hidden-phone">
+            <li><a href="index.html"><i class="icon-play"></i>Home</a></li>
+            <li><a href="index.html#projects"><i class="icon-play"></i>Projects</a></li>
+            <li><a href="index.html#publications"><i class="icon-play"></i>Publications</a></li>
+            <li><a href="assets/renziqiang-cv.pdf"><i class="icon-play"></i>CV</a></li>
+          </ul>
+	
+          <hr class="hidden-phone"/>
+          <div class="text-center hidden-phone">
+            <img src="me.jpg" alt="photo" class="logo-image"/>
+            <br><br>
+            
+          </div>
+	  
+	    
+
+          <!-- Otherwise, we simply use a flat list of links -->
+          <div class="visible-phone">
+            <a href="index.html"><i class="icon-play"></i>Home</a>
+            <a href="index.html#projects"><i class="icon-play"></i>Projects</a>
+            <a href="index.html#publications"><i class="icon-play"></i>Publications</a>
+          </div>
+        </div>
+        <div class="span9">
+          <h3>
+	Ziqiang Ren (任自强)
+</h3>
+<h5>
+<a href="mailto:zichiang.ren@gmail.com">zichiang.ren@gmail.com</a>
+</h5>
+<!-- Do I want to show a pic on the phone screen?
+<div class="text-center visible-phone">
+	<img src="assets/img/Yangqing.png" alt="photo" width="150px"/>
+</div>
+-->
+<a class="visible-phone pull-left" href="#">
+  <img class="media-object" src="me.jpg" width="96px" style="margin: 0px 10px" />
+</a>
+<p>
+I'm an Automation Science and Technology 3rd-year undergrad from <a href="https://en.m.wikipedia.org/wiki/Xi%27an_Jiaotong_University">Xi'an Jiaotong University</a>, with my interest focus on Signal Processing, Machine Learning and Network Security.
+</p>
+<p>
+I'm currently a research intern at <a href="http://nskeylab.xjtu.edu.cn/site/lab/">Key Lab For Intelligent Networks and Network Security</a>, supervised by <a href="http://nskeylab.xjtu.edu.cn/people/cshen/">Chao Shen</a>. Prior to that, I was an intern at <a href="http://www.ia.cas.cn/">CASIA</a>, and participated in research related to computer vision.</p>
+<p>Here's my <a href="renziqiang-cv.pdf">CV</a>.
+                I have strong interest in research, planning to pursue a Ph.D.
+            </p>
+
+<!--
+https://github.com/RichthofenRen/RichthofenRen.github.io/blob/master/
+ *** Publications ***
+-->
+
+<h3>
+<a name='projects'></a>Projects
+</h3>
+		
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" src="sig2017.png" width="96px" height="96px"/>
+  </a>
+  <div class="media-body">
+    <p class="media-heading">
+      <strong>
+      	<a href="https://github.com/ZiqiangRen/Blind-signal-processing-3-kinds">Blind signal processing based on adaptive window and Euclidean distance</a>
+      </strong>, Apr. 2017.
+    </p>
+    <p class="abstract-text">
+      We use an adaptive sliding window to sample the original signal and use the Euclidean distance to characterize the similarity of the sample to be detected and the training signal.
+    </p>
+  </div>
+</div>
+		
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" src="sk.png" width="96px" height="96px"/>
+  </a>
+  <div class="media-body">
+    <p class="media-heading">
+      <strong>
+      	<a href="https://github.com/ZiqiangRen/password-inference-by-acceleration-data-using-scikit-learn/">Password inference based on embeded sensor data using scikit-learn</a>
+      </strong>, Jan. 2017.
+    </p>
+    <p class="abstract-text">
+      The password entry process often occurs on the keyboard. We collected the acceleration data of the sensor we wore and extracted the features. We use the scikit-learn library to classify the training data and use the classifier to obtain the passwords sequences that are waiting for inference.
+    </p>
+  </div>
+</div>
+		
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" src="input.png" width="96px" height="96px"/>
+  </a>
+  <div class="media-body">
+    <p class="media-heading">
+      <strong>
+      	<a href="https://github.com/ZiqiangRen/password-inference-by-acceleration-data-using-Tensorflow-/">Password inference based on embeded sensor data using tensorflow</a>
+      </strong><a target="_blank"
+                           href="http://nbviewer.jupyter.org/github/ZiqiangRen/password-inference-by-acceleration-data-using-Tensorflow-/blob/master/Slides_Passwords%20Inference.pdf">[Slides]</a>, Mar. 2017.
+    </p>
+    <p class="abstract-text">
+      The password entry process often occurs on the keyboard. We collected the acceleration data of the sensor we wore and extracted the features. We use the feature set as a 4-layer neural network input, training to obtain high-performance artificial neural network classifier to identify the user input password sequence.
+    </p>
+  </div>
+</div>
+		
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" src="dsp.png" width="96px" height="96px"/>
+  </a>
+  <div class="media-body">
+    <p class="media-heading">
+      <strong>
+      	<a href="https://github.com/RichthofenRen/Digital-speech-signal-analysis-in-frequency-domain">0-9 voice recognition system based on MFCC</a>
+      </strong>, Oct. 2016.
+    </p>
+    <p class="abstract-text">
+      Based on the improved DTW algorithm and MFCC speech recognition, our system can accomplish the segmentation and recognition of 0-9 voice continuous signals, with the accuracy rate of more than 90%.
+    </p>
+  </div>
+</div>
+		
+<div class="media">
+  <a class="pull-left" href="#">
+    <img class="media-object" src="https://github.com/ZiqiangRen/knight-s-tour-problem-a-greedy-algorithm/blob/master/board.png" width="96px" height="96px"/>
+  </a>
+  <div class="media-body">
+    <p class="media-heading">
+      <strong>
+      	<a href="https://github.com/ZiqiangRen/knight-s-tour-problem-a-greedy-algorithm/">Knight's Tour: a greedy algorithm</a>
+      </strong>, Nov. 2015.
+    </p>
+    <p class="abstract-text">
+      I designed a greedy algorithm to solve the classic data structure problem: Knight Tour.
+    </p>
+  </div>
+</div>
+		
+
+
+	  
+	  
+<hr>
+            <footer class="footer">
+                 <div class='hidden-phone'>
+                <h3 class="text-center"><a name="wall"></a><strong>works</strong></h3>
+                <section id="photos">
+                    <img src="https://raw.githubusercontent.com/ZiqiangRen/ziqiangren.github.io/master/work/TI.png" height="200" width="200"/>
+                    <img src="https://raw.githubusercontent.com/ZiqiangRen/ziqiangren.github.io/master/work/ccs.png" height="200" width="200"/>
+                    <img src="https://raw.githubusercontent.com/ZiqiangRen/ziqiangren.github.io/master/work/object.png" height="200" width="200"/>
+                    <img src="https://raw.githubusercontent.com/ZiqiangRen/ziqiangren.github.io/master/work/saliency.png" height="200" width="200"/>
+                    <img src="https://raw.githubusercontent.com/ZiqiangRen/ziqiangren.github.io/master/work/dsp.png" height="200" width="200"/>
+                    <img src="https://raw.githubusercontent.com/ZiqiangRen/ziqiangren.github.io/master/work/robocon.gif" height="200" width="200"/>
+		    <img src="https://raw.githubusercontent.com/ZiqiangRen/ziqiangren.github.io/master/work/saliency_UFO.png" height="200" width="200"/>
+		    <img src="https://raw.githubusercontent.com/ZiqiangRen/ziqiangren.github.io/master/work/sig2017.png" height="200" width="200"/>
+		    <img src="https://raw.githubusercontent.com/ZiqiangRen/ziqiangren.github.io/master/work/feature_fingerprint.png" height="200" width="200"/>
+		    <img src="https://raw.githubusercontent.com/ZiqiangRen/ziqiangren.github.io/master/work/playground.png" height="200" width="200"/>
+		    <img src="https://raw.githubusercontent.com/ZiqiangRen/ziqiangren.github.io/master/work/classifier_comparison.png" height="200" width="400"/>
+                </section>
+             <hr>
+	 </div>
+	<div class='visible-phone'>
+                <h3 class="text-center"><a name="wall"></a><strong>works</strong></h3>
+                <section id="photos">
+                    <img src="https://raw.githubusercontent.com/ZiqiangRen/ziqiangren.github.io/master/work/TI.png" height="200" width="200"/>
+                    <img src="https://raw.githubusercontent.com/ZiqiangRen/ziqiangren.github.io/master/work/ccs.png" height="200" width="200"/>
+                    <img src="https://raw.githubusercontent.com/ZiqiangRen/ziqiangren.github.io/master/work/object.png" height="200" width="200"/>
+                    <img src="https://raw.githubusercontent.com/ZiqiangRen/ziqiangren.github.io/master/work/saliency.png" height="200" width="200"/>
+                    <img src="https://raw.githubusercontent.com/ZiqiangRen/ziqiangren.github.io/master/work/dsp.png" height="200" width="200"/>
+                    <img src="https://raw.githubusercontent.com/ZiqiangRen/ziqiangren.github.io/master/work/robocon.gif" height="200" width="200"/>
+		    <img src="https://raw.githubusercontent.com/ZiqiangRen/ziqiangren.github.io/master/work/saliency_UFO.png" height="200" width="200"/>
+		    <img src="https://raw.githubusercontent.com/ZiqiangRen/ziqiangren.github.io/master/work/sig2017.png" height="200" width="200"/>
+		    <img src="https://raw.githubusercontent.com/ZiqiangRen/ziqiangren.github.io/master/work/feature_fingerprint.png" height="200" width="200"/>
+		    <img src="https://raw.githubusercontent.com/ZiqiangRen/ziqiangren.github.io/master/work/playground.png" height="200" width="200"/>
+		    <img src="https://raw.githubusercontent.com/ZiqiangRen/ziqiangren.github.io/master/work/classifier_comparison.png" height="200" width="400"/>
+                </section>
+             <hr>
+	 </div>
+		
+		    
+		<div class="row">
+                    <div class="span12">
+                        <p>
+                            modified from <a target="_blank" href="http://daggerfs.com/">© Yangqing Jia 2013</a>
+                        </p>
+                    </div>
+                </div>
+             </footer>	
+        </div>
+      </div>
+    </div>
+
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+<!--
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="assets/js/bootstrap-affix.js"></script>
+    <script src="assets/js/holder/holder.js"></script>
+    <script src="assets/js/application.js"></script>
+-->
+  </body>
+</html>
+
+
